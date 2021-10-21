@@ -1,0 +1,65 @@
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+#etiqueta{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    background-color: rgb(192, 139, 241);
+}
+.etiqueta2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    background-color: rgb(229, 200, 255);
+}
+
+.lenguajes{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(247, 240, 177);
+    text-align: center;
+}
+.formulacionPr{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(204, 235, 236);
+    text-align: center;
+}
+.ingles{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(233, 182, 182);
+    text-align: center;
+}
+.ProgWeb{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(204, 202, 233);
+    text-align: center;
+}
+
+.Liderazgo{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(183, 253, 195);
+    text-align: center;
+}
+.requisitos{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(253, 228, 183);
+    text-align: center;
+}
+.hora{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(231, 217, 243);
+    text-align: center;
+}
+#receso{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background-color: rgb(30, 202, 233);
+    text-align: center;
+}
