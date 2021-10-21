@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:#d4a373;
+    margin: 0 auto;
+    width: 50%;
+
+}
+
+.contenido{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #faedcd;
+}
+
+
+header{
+    display: flex;
+    /*background-color: #EBEBD3*/
+} 
+
+header img{
+    width: 100px;
+}
+
+header h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: #b07d62;
+}
+
+
+nav ul li{
+    list-style: none;
+}
+
+
+
+nav ul li a{
+    margin-left: 20px;
+    text-decoration: none;
+    float: left;
+    font-family: cursive;
+
+}
+.form{
+    width: 100%;
+    border-radius: 10%;
+    
+
+}
+
+nav ul li a:hover{
+    background-color: #4B2840;
+    color: #ffffff;
+}
+
+
+.clearfix{
+    clear: both;
+}
+
+.form{
+    background-color: #ffffff;
+    margin: 8%;
+    padding: 10px;
+    border-radius: 5%;
+    text-align: center;
+}
+section{
+margin-bottom: 20px;
+}
+section h2{
+    color: #861388;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border-bottom: 2px solid #FEC89A;
+    margin-bottom: 20px;
+
+}
+
+
+
+.contenido-principal{
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5%;
+  
+}
+
+.contenido-principal .main{
+    width: 70%;
+}
+
+.contenido-principal aside{
+    width: 30%;
+}
+.main,aside{
+    background-color: #ffffff;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5%;
+}
+aside h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: #861388;
+}
+.justificado{
+    text-align: justify;
+}
+footer{
+
+    background-color: #E8E8E4;
+    text-align: center;
+}
+#negritas{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+  
+
+}
+.boton-personalizado {
+    text-decoration:none;
+    font-weight: 300;
+    font-size: 15px;
+    color: #e76f51;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:#ffffff;
+    border-color: rgb(201, 196, 196);
+    border-width: 3px;
+    border-style: solid;
+    }

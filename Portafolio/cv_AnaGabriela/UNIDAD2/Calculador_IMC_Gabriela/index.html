@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <br><br>
+    <main>
+        <h1>Calculadora IMC</h1>
+        <div class="contenido-principal">
+            <div id="info">
+                <div class="camposDatos">
+                    <div class="Datos">
+                        <h3>***D a t o s***</h3><br><br>
+                        <label for="peso">Peso:</label>
+                
+                        <input type="number" id="peso" name="peso"
+                       min="1" max="100"> <br><br><br>
+            
+                        <label for="altura">Estatura:</label>
+                
+                        <input type="number" id="altura" name="altura"
+                       min="1" max="100">
+            
+                        <br><br><br><br>
+            
+                       <input type="button" class="button" onclick="limpiar();" name="" value="Reiniciar">
+                                   
+                       <input type="button" class="button" onclick="calcular();" name="" value="Calcular">
+            
+                    </div>
+                </div>
+                
+                <br><br><br><br>
+                <div class="Da-re">
+                    <div class="resultados">
+                        <h3>**R e s u l t a d o s**</h3><br><br>
+                        <label for="imc" >IMC:</label><p id="imc"></p>
+                        <br><br><br><br>
+                        <label for="tipo" >Categoria:</label><p id="tipo"></p>
+                        <br><br><p id="tipo2"></p>
+                    </div>
+                </div>
+                <br><br><br><br>
+            </div>
+
+            <div id="imagenes">
+                
+            </div>
+
+            </div>
+
+    </main>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
